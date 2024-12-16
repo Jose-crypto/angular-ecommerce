@@ -1,0 +1,28 @@
+[
+    {
+      "id": 101,
+      "nombre": "Laptops",
+      "descripcion": "Computadoras portátiles para uso personal y profesional."
+    },
+    {
+      "id": 102,
+      "nombre": "Smartphones",
+      "descripcion": "Teléfonos móviles inteligentes con funciones avanzadas."
+    },
+    {
+      "id": 103,
+      "nombre": "Auriculares",
+      "descripcion": "Dispositivos de audio para escuchar música y realizar llamadas."
+    },
+    {
+      "id": 104,
+      "nombre": "Smartwatches",
+      "descripcion": "Relojes inteligentes que combinan funciones de tecnología y estilo."
+    },
+    {
+      "id": 105,
+      "nombre": "Accesorios para computadoras",
+      "descripcion": "Periféricos y accesorios para mejorar la experiencia de uso de computadoras."
+    }
+  ]
+  

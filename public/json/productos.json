@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Producto 1",
+    "descripcion": "Este es el primer producto con una imagen exclusiva.",
+    "precio": 199.99,
+    "stock": 50,
+    "categoriaId": 1,
+    "imagen": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Producto 2",
+    "descripcion": "El segundo producto, de calidad superior y diseño elegante.",
+    "precio": 149.49,
+    "stock": 20,
+    "categoriaId": 2,
+    "imagen": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Producto 3",
+    "descripcion": "Producto profesional con características avanzadas.",
+    "precio": 299.99,
+    "stock": 15,
+    "categoriaId": 3,
+    "imagen": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Producto 4",
+    "descripcion": "Un producto versátil y durable para cualquier uso.",
+    "precio": 89.99,
+    "stock": 100,
+    "categoriaId": 1,
+    "imagen": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Producto 5",
+    "descripcion": "Diseño innovador y características avanzadas para un mejor rendimiento.",
+    "precio": 249.99,
+    "stock": 30,
+    "categoriaId": 2,
+    "imagen": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  }
+]
