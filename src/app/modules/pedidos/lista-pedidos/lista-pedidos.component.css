@@ -1,7 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Asegura que los botones estén alineados correctamente en dispositivos pequeños */
+button {
+    margin-left: 10px;
+}
+  
+  /* Agrega un espacio entre los items de la lista */
+.list-group-item {
+    margin-bottom: 1rem;
+}
 
 .navbar {
     background-color: #333;

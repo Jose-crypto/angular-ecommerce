@@ -1,1 +1,20 @@
-<p>login works!</p>
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="login-container p-4 border shadow-sm rounded" style="max-width: 400px; width: 100%;">
+      <h2 class="text-center mb-4">Iniciar sesión</h2>
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input id="email" formControlName="email" type="email" class="form-control" placeholder="Correo electrónico" />
+        </div>
+  
+        <div class="mb-3">
+          <label for="password" class="form-label">Contraseña</label>
+          <input id="password" formControlName="password" type="password" class="form-control" placeholder="Contraseña" />
+        </div>
+  
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Iniciar sesión</button>
+        </div>
+      </form>
+    </div>
+  </div>

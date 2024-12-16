@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component,ChangeDetectorRef,inject } from '@angular/core';
 import { ProductoService } from '../productos/services/producto.service';
 import { Producto } from '../../shared/interfaces/product.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -11,8 +12,9 @@ import { Producto } from '../../shared/interfaces/product.interface';
     <nav class="navbar">
       <div class="logo">Ecommerce</div>
       <ul class="nav-links">
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Carrito</a></li>
+        <li><a href="/products">Productos</a></li>
+        <li><a href="/carrito">Carrito</a></li>
+        <li><a href="/pedidos">Pedidos</a></li>
       </ul>
     </nav>
 
@@ -39,6 +41,8 @@ export class HomeComponent {
   
     products: Producto[] = [];
   
+    constructor (private router: Router) {}
+
     ngOnInit(){
       this.listProducts();
     }

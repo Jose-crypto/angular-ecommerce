@@ -46,3 +46,56 @@ button:hover {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+.confirmar-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.confirmar-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.confirmar-btn:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-left: 20px;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar .nav-links li a:hover {
+  color: #f1c40f;
+}

@@ -34,7 +34,7 @@ export class ProductsCardComponent {
   constructor(private carritoService: CarritoService) { }
 
   agregarAlCarrito(): void {
-    this.carritoService.agregarAlCarrito(this.product);
+    this.carritoService.agregarProducto(this.product);
     console.log(this.product)
   }
 

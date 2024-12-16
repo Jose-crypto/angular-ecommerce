@@ -15,6 +15,10 @@ export const routes: Routes = [
         path: 'carrito',
         loadChildren: () => import('./modules/carrito/carrito.routes').then((m) => m.routes),
     },
+    {
+        path: 'pedidos',
+        loadChildren: () => import('./modules/pedidos/pedidos.routes').then((m) => m.routes),
+    },
 ];
 
 export const APP_ROUTER = provideRouter(routes);

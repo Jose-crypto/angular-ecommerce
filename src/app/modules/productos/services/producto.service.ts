@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators'; // Importar 'map' de 'rxjs/operators'
 })
 export class ProductoService {
   private http = inject(HttpClient);
-  private baseUrl = 'json/productos.json';
+  private baseUrl = 'http://localhost:8080/productos';
   //private baseUrl = 'https://fakestoreapi.com/products';
 
   constructor() {}
